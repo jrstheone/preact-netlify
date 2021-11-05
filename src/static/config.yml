@@ -16,4 +16,15 @@ collections:
       - { label: "Cover", name: "cover", widget: "image", required: false}
       - { label: "Tags", name: "tags", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown"}
+  - name: "new_pages"
+    label: "New Pages"
+    label_singular: "New Page" # Used in the UI, ie: "New Post"
+    folder: "content/new_blog"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string"}
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Cover", name: "cover", widget: "image", required: false}
+      - { label: "Tags", name: "tags", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown"}
 
